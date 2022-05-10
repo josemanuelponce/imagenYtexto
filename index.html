@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+</head>
+<style>
+    body {
+        justify-content: center;
+        display: block;
+
+    }
+
+    .foto {
+        width: 50%;
+        height: 500px;
+        background-size: cover;
+        background-image: url("img/pinguinos.jpg");
+        margin: auto;
+    }
+
+    .foto:hover:active {
+        padding: 20px;
+        background-image: url("img/nieve.jpg");
+    }
+
+    p {
+        padding: auto;
+        margin: auto;
+        width: 90%;
+        background-color: aqua;
+    }
+    .parrafo:active > p::first-letter {
+        font-style: italic;
+        
+    }
+    
+
+    .parrafo:active > p:nth-child(3n+3){
+        color: red;
+        background-color: lime;
+    }
+
+    .parrafo:hover:active {
+        height: 30%;
+        column-count: 3;
+
+    }
+
+    
+</style>
+
+<body>
+    <div class="foto">
+
+    </div>
+
+
+    <div class="parrafo">
+    <p class="puno">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, quidem illo. Dolores debitis quae voluptate?
+        Maxime dignissimos officia non et omnis, aliquid consequuntur neque exercitationem delectus molestiae odit velit
+        temporibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum illum minima labore harum autem
+        doloribus quos Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut ea iure ipsa ipsam iste autem voluptatem, 
+        accusantium dignissimos esse architecto quibusdam! Dignissimos possimus, non vitae molestias nam animi quis voluptates.
+    </p>
+    <p class="pdos">
+        debitis architecto atque voluptate, repellendus dolorum reprehenderit rerum aspernatur earum voluptatem. Eaque,
+        cum repudiandae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam similique consequuntur ducimus
+        exercitationem ad, asperiores provident. Cupiditate inventore assumenda quibusdam similique nihil? Minima, animi
+        et quia consectetur adipisci odit a. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor 
+        sit amet consectetur adipisicing elit. Fugiat hic optio omnis asperiores natus similique maiores eos, aspernatur 
+        nam perspiciatis in repudiandae ad ex necessitatibus officia nemo laborum alias error.
+    </p>
+    <p class="ptres">
+         Dolores reprehenderit sapiente tempora sunt sit magni aut minus sequi, iusto, temporibus, nobis consectetur
+        voluptas nisi neque quod nam atque natus nihil! Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+        qui officia perspiciatis possimus asperiores doloribus animi. Harum nobis quos enim provident! Odit, tempora
+        autem! Voluptatum cumque est debitis blanditiis cupiditate. Lorem ipsum dolor sit amet consectetur adipisicing 
+        elit. Blanditiis quo rem recusandae. Unde reprehenderit reiciendis consequatur recusandae libero non, ut aspernatur. 
+        Consequuntur velit consequatur commodi odit obcaecati suscipit eaque reiciendis.
+    </p>
+
+</div>
+</body>
+
+</html>
